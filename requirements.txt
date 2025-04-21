@@ -1,0 +1,10 @@
+streamlit
+openai
+sentence-transformers
+xgboost
+scikit-learn
+nltk
+textstat
+pandas
+matplotlib
+seaborn
