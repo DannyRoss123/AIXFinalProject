@@ -26,7 +26,7 @@ except NotImplementedError:
     model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 
 # --- GPT API Setup ---
-client = OpenAI(api_key="key-here")  
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"]) 
 
 # --- Load Your Model ---
 clf = joblib.load("xgb_model.pkl")
